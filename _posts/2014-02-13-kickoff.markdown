@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "New Day, New Blog"
-date:   2014-02-13 19:52:49
+title: New Day, New Blog
+date: 2014-02-13 19:52:49
 categories: jekyll update
 ---
 
