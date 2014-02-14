@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "New Day, New Blog"
+date:   2014-02-13 19:52:49
+categories: jekyll update
+---
+
+Welp, this is a blog post. There are many like it, but this blog post is mine. Say hi!
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Nathan')
+#=> prints 'Hi, Nathan' to STDOUT.
+{% endhighlight %}
+
+more soon...
