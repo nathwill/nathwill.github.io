@@ -71,26 +71,31 @@ There's something about this argument really sticks in my craw, though. It simul
 Imagine that I've hired Canonical to do a job, to provide me with a user-friendly Free Software OS. I do, after all, pay them, both in terms of Ubuntu One subscriptions, and revenue sharing they collect from Google and the Ubuntu Music Store. So what's in the contract?
 
 Here's the terms we're all well acquainted with:
-<pre style="padding-left: 60px;">We trust you have received the usual lecture from the local 
+
+{% highlight bash %}
+We trust you have received the usual lecture from the local 
 System Administrator. It usually boils down to these three 
 things:
     #1) Respect the privacy of others.
     #2) Think before you type.
-    #3) With great power comes great responsibility.</pre>
+    #3) With great power comes great responsibility.
+{% endhighlight %}
+
 Ouch. Let's take them one at a time then, shall we?
 
-<em>Respect the privacy of others.</em>
+_Respect the privacy of others._
 
-I'm sorry, Canonical, but you've failed here. You effectively inserted a monitoring device into my operating system, without providing me warning that it was coming, clear instructions on how to disable it, or listening to our feedback when we objected to it. You also failed to take even <em>basic</em> steps to protect my privacy before foisting it upon me, like encrypting the data you're harvesting before transferring it back to headquarters.
+I'm sorry, Canonical, but you've failed here. You effectively inserted a monitoring device into my operating system, without providing me warning that it was coming, clear instructions on how to disable it, or listening to our feedback when we objected to it. You also failed to take even _basic_ steps to protect my privacy before foisting it upon me, like encrypting the data you're harvesting before transferring it back to headquarters.
 
-<em>Think before you type.</em>
+_Think before you type._
 
-<em></em>I really get the sense that the responses I've seen to user concerns were made defensively, rather than after consideration of the complaints. I don't blame any of the people involved, as it's hard to keep cool when people are accusing you of things you didn't intend to do. I know that everyone involved is a good person. Be that as it may, they're still accountable for those things, and I believe they ought to apologise to the community for the misleading responses and accusations of fundamentalism.
+I really get the sense that the responses I've seen to user concerns were made defensively, rather than after consideration of the complaints. I don't blame any of the people involved, as it's hard to keep cool when people are accusing you of things you didn't intend to do. I know that everyone involved is a good person. Be that as it may, they're still accountable for those things, and I believe they ought to apologise to the community for the misleading responses and accusations of fundamentalism.
 
-<em>With great power comes great responsibility.</em>
+_With great power comes great responsibility._
 
-Herein lies the crux of the matter. By installing Ubuntu, we give Canonical the power to do things against our interest, but with the understanding and expectation that they <em>won't</em>, that they'll behave responsibly with that power. At its core, the protest and vehemence over the ubuntu-lens-shopping by privacy advocates and concerned users is due to perceptions that Canonical has misused that power to do something that is more in their own interest than in the interest of users.
-<h1><span style="text-decoration: underline;">Conclusion: Canonical, you're fired!</span></h1>
-As an Ubuntu user, contributor, and advocate, I <em>fucking <strong>hate</strong> this</em>, but the only reasonable conclusion I can reach as a conscientious person who believes in privacy, security, and control (I am a Linux user, after all) is that I need to revoke privileges from an entity who has failed to live up to their end of the bargain.
+Herein lies the crux of the matter. By installing Ubuntu, we give Canonical the power to do things against our interest, but with the understanding and expectation that they _won't_, that they'll behave responsibly with that power. At its core, the protest and vehemence over the ubuntu-lens-shopping by privacy advocates and concerned users is due to perceptions that Canonical has misused that power to do something that is more in their own interest than in the interest of users.
+
+# Conclusion: Canonical, you're fired!
+As an Ubuntu user, contributor, and advocate, I _fucking *hate* this_, but the only reasonable conclusion I can reach as a conscientious person who believes in privacy, security, and control (I am a Linux user, after all) is that I need to revoke privileges from an entity who has failed to live up to their end of the bargain.
 
 This article was written from a fresh install of Fedora, and I don't anticipate going back to Ubuntu any time soon. To my friends within Canonical and the Ubuntu community, I thank you for the wonderful experiences and opportunities, and I wish you luck as you continue to pursue success as a FOSS desktop operating system.
