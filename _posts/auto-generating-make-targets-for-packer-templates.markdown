@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Building Docker image with Packer and Chef
+title: Auto-generating make targets for packer templates
 ---
 
 Simple example of auto-generating Make targets for a suite
-of packer templates
+of packer templates, using Chef and Docker.
 
 ## Makefile
 
@@ -104,4 +104,15 @@ $(projs):
     }
   ]
 }
+{% endhighlight %}
+
+## Result
+
+{% highlight bash %}
+[nathwill@wyrd ~]$ ls *.json
+derp.json  shoop.json  woops.json
+[nathwill@wyrd ~]$ make <tab> <tab>
+all             build-shoop     cookbooks       fix             fix-woops       inspect-shoop   validate        validate-woops
+build           build-woops     deps            fix-derp        inspect         inspect-woops   validate-derp   woops
+build-derp      clean           derp            fix-shoop       inspect-derp    shoop           validate-shoop
 {% endhighlight %}
