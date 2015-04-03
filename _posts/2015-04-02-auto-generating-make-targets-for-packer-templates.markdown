@@ -51,7 +51,7 @@ $(projs):
 
 ## Packer Template
 
-{% highlight json %}
+{% highlight raw %}
 {
   "description": "build docker image",
   "min_packer_version": "0.7.5",
