@@ -6,6 +6,8 @@ title: Auto-generating make targets for packer templates
 Simple example of auto-generating Make targets for a suite
 of packer templates, using Chef and Docker.
 
+(Remove the escapes from the image key in the builder... markdown formatting jankiness, sorry)
+
 ## Makefile
 
 {% highlight make %}
@@ -61,7 +63,7 @@ $(projs):
   "builders": [
     {
       "type": "docker",
-      "image": "{{user `base_image`}}",
+      "image": "\{\{user `base_image`\}\}",
       "run_command": ["-d", "-i", "-t", "{{.Image}}", "/bin/bash", "--noprofile", "--norc"],
       "commit": true
     }
